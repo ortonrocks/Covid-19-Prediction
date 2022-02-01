@@ -7,6 +7,7 @@ Covid-19 美國各周預測
 Classifier,GaussianNB, Perceptron,SGDClassifier,DecisionTreeClassifier等演算法預測，
 
 *最終利用DNN作為解決方案，設計二分類模型
+
 ------------------
 model=models.Sequential()
 model.add(layers.Dense(32,activation='relu',input_shape=(92,)))
